@@ -1,0 +1,25 @@
+{
+  "name": "linkfree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildcss": "npx tailwindcss -i ./css/inp.css -o ./css/index.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MushyToast/linkfree.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MushyToast/linkfree/issues"
+  },
+  "homepage": "https://github.com/MushyToast/linkfree#readme",
+  "dependencies": {
+    "react-reveal": "^1.2.2",
+    "scrollreveal": "^4.0.9"
+  }
+}

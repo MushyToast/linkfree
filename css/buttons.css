@@ -1,0 +1,32 @@
+html {
+    background-image: url("https://g.redditmedia.com/QaLgZjUUQqV1uBV88mM047X7VtD2737Ov4HvMSLXey0.gif?fm=mp4&mp4-fragmented=false&s=30cf5db41517bb83ce1399f8d3f589e9");
+
+}
+
+a {
+    background-color: rgb(190, 190, 190);
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#icon1 {
+    transition: 0.3s;
+}
+
+#btn1:hover #icon1 {
+    display: none;
+}
+
+#icon1 {
+    display: block;
+}
+
+#maintxt {
+    transitoin: 0.3s;
+}
